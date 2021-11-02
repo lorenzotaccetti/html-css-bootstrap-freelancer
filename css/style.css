@@ -1,0 +1,44 @@
+/* COMMON */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.right{
+    text-align: right;
+}
+
+/* HEADER */
+header{
+    padding: 20px 0;
+    background-color: #2c3e4f;
+    color: white;
+    text-transform: uppercase;
+}
+
+header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+
+/* Titolo */
+header .titolo-start{
+    font-size: 25px;
+    font-weight: 700;
+}
+/* Hamburger menu */
+header .hamburger{
+    font-size: 25px;
+}
+
+/* Ul-menu */
+header .ul-menu{
+    font-size: 18px;
+    font-weight: 700;
+}
