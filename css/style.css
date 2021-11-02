@@ -324,6 +324,8 @@ header .ul-menu{
 }
 
 /* FOOTER */
+
+/* Top footer */
 footer .top-footer{
     margin-top: 40px;
     padding-top: 30px;
@@ -361,4 +363,11 @@ footer .top-footer{
 /* Colore diverso */
 .top-footer .change-color{
     color: #19bc9c;
+}
+
+/* Bottom footer */
+footer .bottom-footer{
+    background-color: #2c3e4f;
+    padding: 40px 0;
+    color: white;
 }
