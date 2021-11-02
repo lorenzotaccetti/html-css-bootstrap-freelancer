@@ -7,6 +7,10 @@ body{
     text-align: right;
 }
 
+img{
+    width: 100%;
+}
+
 /* HEADER */
 header{
     padding: 20px 0;
@@ -41,4 +45,54 @@ header .hamburger{
 header .ul-menu{
     font-size: 18px;
     font-weight: 700;
+}
+
+/* MAIN */
+
+/* Main-top */
+.main-top{
+    background-color: #19bc9c;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Avatar */
+.main-top .avatar{
+    width: 50%;
+    height: 50%;
+}
+
+/* Titolo */
+.main-top h1{
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+/* Stella e linee */
+.main-top .linea{
+    width: 70px;
+    height: 4px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.main-top .stella{
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+/* Qualifiche */
+.main-top .qualifiche{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0 40px;
+}
+
+.main-top .linea-2{
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    border-radius: 20px;
+    vertical-align: middle;
 }
