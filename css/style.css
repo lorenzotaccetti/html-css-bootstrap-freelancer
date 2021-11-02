@@ -11,6 +11,14 @@ img{
     width: 100%;
 }
 
+.padd{
+    padding-bottom: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
 /* HEADER */
 header{
     padding: 20px 0;
@@ -313,4 +321,44 @@ header .ul-menu{
     background-color: #19bc9c;
     padding: 10px 16px;
     border-radius: 6px;
+}
+
+/* FOOTER */
+footer .top-footer{
+    margin-top: 40px;
+    padding-top: 30px;
+    background-color: #3b536d;
+    color: white;
+    font-weight: 700;
+}
+
+/* Top-footer titoli */
+@media all and (min-width:768px) {
+    .top-footer .top-footer-titles{
+        font-size: 20px;
+    }
+}
+
+/* Top-footer testo */
+@media all and (min-width:768px) {
+    .top-footer .top-footer-text{
+        font-size: 13px;
+    }
+}
+
+/* Icone */
+.top-footer .icone{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/* Colore diverso */
+.top-footer .change-color{
+    color: #19bc9c;
 }
