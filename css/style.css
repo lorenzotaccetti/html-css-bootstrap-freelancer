@@ -58,8 +58,16 @@ header .ul-menu{
 
 /* Avatar */
 .main-top .avatar{
-    width: 50%;
-    height: 50%;
+    margin-top: 40px;
+    width: 40%;
+    height: 40%;
+}
+
+@media all and (min-width:768px) {
+    .main-top .avatar{
+        width: 25%;
+        height: 25%;
+    }
 }
 
 /* Titolo */
@@ -70,15 +78,33 @@ header .ul-menu{
 
 /* Stella e linee */
 .main-top .linea{
-    width: 70px;
-    height: 4px;
+    width: 65px;
+    height: 3px;
     background-color: white;
     border-radius: 20px;
 }
 
+@media all and (min-width:768px) {
+    .main-top .linea{
+        width: 85px;
+    }
+}
+
+@media all and (min-width:992px) {
+    .main-top .linea{
+        width: 95px;
+    }
+}
+
 .main-top .stella{
-    font-size: 25px;
+    font-size: 35px;
     margin: 0 15px;
+}
+
+@media all and (min-width:768px) {
+    .main-top .stella{
+        font-size: 25px;
+    }
 }
 
 /* Qualifiche */
