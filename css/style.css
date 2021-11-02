@@ -176,3 +176,74 @@ header .ul-menu{
 .portfolio .box img{
     border-radius: 20px;
 }
+
+/* Main-bottom */
+.main-bottom{
+    background-color: #19bc9c;
+    color: white;
+    padding: 30px 0;
+}
+
+/* Titolo */
+.main-bottom h2{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* Stella e linee */
+.main-bottom .stella{
+    font-size: 35px;
+    margin: 0 15px;
+    color: white;
+}
+
+@media all and (min-width:768px) {
+    .main-bottom .stella{
+        font-size: 25px;
+    }
+}
+
+.main-bottom .linea{
+    width: 65px;
+    height: 3px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+@media all and (min-width:768px) {
+    .main-bottom .linea{
+        width: 85px;
+    }
+}
+
+@media all and (min-width:992px) {
+    .main-bottom .linea{
+        width: 95px;
+    }
+}
+
+/* Paragrafi */
+.main-bottom .paragraph{
+    width: 60%;
+    margin: 10px auto;
+}
+
+@media all and (min-width:768px) {
+    .main-bottom .paragraph{
+        width: 50%;
+    }
+}
+
+/* Download-button */
+.main-bottom .download-button{
+    margin-top: 10px;
+}
+
+.main-bottom .download-button a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
