@@ -183,6 +183,7 @@ header .ul-menu{
 
 /* Main-bottom */
 .main-bottom{
+    margin-top: 30px;
     background-color: #19bc9c;
     color: white;
     padding: 30px 0;
@@ -190,7 +191,6 @@ header .ul-menu{
 
 /* Titolo */
 .main-bottom h2{
-    margin-top: 20px;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -306,6 +306,7 @@ header .ul-menu{
     border-right: 0;
     border-radius: 0;
     padding-left: 0;
+    box-shadow: none;
 }
 /* Send Button */
 .contact-me .send-button button{
